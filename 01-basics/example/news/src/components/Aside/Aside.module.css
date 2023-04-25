@@ -1,0 +1,32 @@
+.aside_container {
+	border-bottom: 1px solid hsl(236, 13%, 42%);
+}
+
+.aside_container:last-child {
+	border-bottom: none;
+}
+
+.aside_header {
+	color: hsl(35, 77%, 62%);
+	font-size: 2.5rem;
+	font-weight: 800;
+	margin: 1rem 0 2rem;
+}
+
+.aside_h {
+	color: hsl(36, 100%, 99%);
+	font-size: 1.32rem;
+	font-weight: 900;
+	margin: 2rem 0 0.8rem 0;
+}
+
+.aside_h:hover {
+	color: hsl(35, 77%, 62%);
+	cursor: pointer;
+}
+
+.aside_p {
+	color: hsl(236, 13%, 42%);
+	line-height: 1.6rem;
+	margin-bottom: 2rem;
+}

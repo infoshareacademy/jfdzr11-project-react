@@ -1,0 +1,40 @@
+.footer_card {
+	display: flex;
+	position: relative;
+}
+.footer_img {
+	width: 6.6rem;
+	object-fit: contain;
+}
+
+.footer_div {
+	padding-left: 1.7rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer_span {
+	color: hsl(233, 8%, 79%);
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
+.footer_heading {
+	color: black;
+	margin-bottom: 1rem;
+	font-size: 1.15rem;
+	font-weight: 800;
+	letter-spacing: 0.03rem;
+}
+.footer_heading:hover {
+	color: hsl(5, 85%, 63%);
+	cursor: pointer;
+}
+
+.footer_text {
+	color: hsl(236, 13%, 42%);
+	position: absolute;
+	bottom: 0;
+	line-height: 1.6rem;
+}

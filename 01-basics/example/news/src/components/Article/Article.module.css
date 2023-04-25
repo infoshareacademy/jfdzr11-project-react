@@ -1,0 +1,36 @@
+.article_image {
+	grid-area: img;
+	background-image: url('../../images/image-web-3-desktop.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.article_headline {
+	grid-area: headline;
+	font-size: 3.8rem;
+	font-weight: 800;
+	margin: 0.5rem 0 0;
+	line-height: 3.8rem;
+}
+
+.article_text {
+	grid-area: text;
+	color: hsl(236, 13%, 42%);
+	margin: 0.3rem 0;
+	line-height: 1.6rem;
+	margin-right: 1rem;
+}
+
+.article_button {
+	grid-area: button;
+	background-color: hsl(5, 85%, 63%);
+	color: hsl(36, 100%, 99%);
+	width: 12rem;
+	height: 3rem;
+	border: none;
+	letter-spacing: 0.28rem;
+}
+.article_button:hover {
+	background-color: hsl(240, 100%, 5%);
+	cursor: pointer;
+}

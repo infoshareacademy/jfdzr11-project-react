@@ -1,9 +1,17 @@
 .navigation {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
+	background-color: hsl(36, 100%, 99%);
 }
 
 .link_list {
-    list-style-type: none;
-    
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	gap: 2.9rem;
+}
+
+.link {
+	text-decoration: none;
+	color: hsl(236, 13%, 42%);
 }
