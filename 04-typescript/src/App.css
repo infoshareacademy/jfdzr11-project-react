@@ -1,0 +1,48 @@
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 300px 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+        "search_section search_section search_section"
+        "results_section results_section results_section";
+}
+
+.search_section {
+    grid-area: search_section;
+    background-color: red;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_section input {
+    padding: 10px;
+    min-width: 200px;
+    width: 250px;
+}
+
+.search_section button {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.search_section h1 {
+    margin: 0 0 20px 0;
+    color: white;
+}
+
+.results_section {
+    grid-area: results_section;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-template-areas: 
+        ". definition ."
+    ;
+}
+
+.definition {
+    grid-area: definition;
+}
