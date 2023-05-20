@@ -1,0 +1,16 @@
+.ant-list-item {
+    margin-top: 10px !important;
+    padding: 10px !important;
+}
+
+.important {
+    border: 1px solid #990F02 !important;
+}
+
+.standard {
+    border: 1px solid green !important;
+}
+
+.other {
+    border: 1px solid violet !important;
+}

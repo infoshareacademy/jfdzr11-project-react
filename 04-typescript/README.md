@@ -16,4 +16,4 @@ Dodatkowe założenia obejmują:
 
 Efekt finalny powinien przypominać funkcjonalność prezentowaną przez poniższy zrzut ekranu:
 
-![](./img/dictionary.jpeg)
+![](./img/Dictionary.jpeg)
