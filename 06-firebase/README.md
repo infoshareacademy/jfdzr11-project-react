@@ -76,7 +76,10 @@ Na bazie informacji z zajęć załóz projekt w [Firebase](https://firebase.goog
 -  skonfiguruj autoryzację uzytkownika po stronie firebase (email + password),
 -  utwórz funkcje odpowiedzialne za rejestrację i logowanie uzytkownika
 
-*  wykorzystaj bibliotekę `react-hot-toast` do informowania uzytkownika o błędzie i sukcesie w procesie rejestracji/logowania
+![](./img/login.png)
+![](./img/register.png)
+
+-  wykorzystaj bibliotekę `react-hot-toast` do informowania uzytkownika o błędzie i sukcesie w procesie rejestracji/logowania
 
 ## 2. Utwórz privateRoute:
 
@@ -88,13 +91,17 @@ Na bazie informacji z zajęć załóz projekt w [Firebase](https://firebase.goog
 -  ostyluj navbar i footer (dodaj telefon i email kontaktowy do footera),
 -  dodaj przycisk logout i spraw by wylogowywał uzytkownika,
 -  pod ściezką `/notes` w komponencie `<Notes />` wyświetl uwagi studentów z podpisem, których studentów jakie uwagi dotyczą,
--  stwórz i ostyluj komponent `<Card />` wyświetlający dane studenta pod ściezką `/students`
+
+![](./img//layout.png)
 
 ## 4. Card:
 
+-  stwórz i ostyluj komponent `<Card />` wyświetlający dane studenta pod ściezką `/students`
 -  stwórz przycisk "remove" umozliwiający usunięcie studenta z bazy i zaimplementuj funkcjonalność usuwania
 -  stwórz link ostylowany jak przycisk prowadzący pod ściezkę `/students/edit/:studentId`, pod którą zostanie zaimplementowany formularz edycji danych studenta
 -  stwórz link "view" ostylowany jak przycisk prowadzący pod ściezkę `/students/data/:studentId`, pod którą zostanie zaimplementowany widok wszyskitch danych na temat danego studenta.
+
+![](./img//card.png)
 
 ## 5. Dodawanie studenta:
 
@@ -104,7 +111,9 @@ Na bazie informacji z zajęć załóz projekt w [Firebase](https://firebase.goog
 -  zaimplementuj funkcjonalność dodawania studenta
 -  powodzenie zapisu danych powinno zakończyć się odesłaniem uzytkownika z powrotem pod ściezkę `/students`
 
-*  wykorzystaj bibliotekę `react-hot-toast` by informować o sukcesie lub błędzie przy próbie dodawania uzytkownika
+![](./img//addstudent.png);
+
+-  wykorzystaj bibliotekę `react-hot-toast` by informować o sukcesie lub błędzie przy próbie dodawania uzytkownika
 
 ## 6. Edycja danych studenta:
 
@@ -114,4 +123,14 @@ Na bazie informacji z zajęć załóz projekt w [Firebase](https://firebase.goog
 -  zaimplementuj funkcjonalność edycji danych studenta,
 -  powodzenie zapisu danych powinno zakończyć się odesłaniem uzytkownika z powrotem pod ściezkę `/students`
 
-*  wykorzystaj bibliotekę `react-hot-toast` by informować o sukcesie lub błędzie przy próbie dodawania uzytkownika
+![](./img/editstudent.png);
+
+-  wykorzystaj bibliotekę `react-hot-toast` by informować o sukcesie lub błędzie przy próbie dodawania uzytkownika
+
+## 7. Wyświetlanie danych studenta
+
+-  stwórz komponent `<StudentData />`, który pod ściezką `/students/data/:studentId` będzie wyświetlał dane studenta np w następujący sposób:
+
+![](./img/viewstudent.png);
+
+-  do tego widoku odsyłać powinien przycisk "view" znajdujący się w komponencie `<Card />`;
