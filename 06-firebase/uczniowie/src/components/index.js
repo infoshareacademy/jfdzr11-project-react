@@ -4,5 +4,8 @@ import Notes from "./Notes/Notes";
 import Grades from "./Grades/Grades";
 import Students from "./Students/Students";
 import Home from "./Home/Home"
+import Login from "./Authentication/Login";
+import Register from "./Authentication/Register";
+import Layout from "./Layout/Layout";
 
-export { Navbar, Footer, Notes, Grades, Students, Home };
+export { Navbar, Footer, Notes, Grades, Students, Home, Login, Register, Layout };
